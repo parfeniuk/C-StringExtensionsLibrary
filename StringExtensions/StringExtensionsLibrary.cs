@@ -11,6 +11,7 @@ namespace StringExtensions
     {
         public static int CountWords(this string str)
         {
+			//коментар якийсь
 			int count = 0;
 			Regex regex = new Regex(@"\w[\s,.:;'!]");
 			MatchCollection matches = regex.Matches(str);
