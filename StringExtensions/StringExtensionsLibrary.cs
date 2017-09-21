@@ -28,5 +28,20 @@ namespace StringExtensions
             count= str.Count(c => char.IsLetterOrDigit(c));
             return count;
         }
+        public static int CountSpecialSymbols(this string str)
+        {
+            // str = "@123:*&^789'!@#$*()_+=;,.?/";
+            int count = 0;
+            foreach (char ch in str)
+            {
+                if (!char.IsLetterOrDigit(ch.ToString(), 0))
+                {
+                    count++;
+                }
+
+            }
+            return count;
+
+        }
     }
 }

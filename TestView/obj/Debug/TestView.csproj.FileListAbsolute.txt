@@ -1,0 +1,8 @@
+D:\Projects\C-StringExtensionsLibrary\TestView\bin\Debug\TestView.exe.config
+D:\Projects\C-StringExtensionsLibrary\TestView\bin\Debug\TestView.exe
+D:\Projects\C-StringExtensionsLibrary\TestView\bin\Debug\TestView.pdb
+D:\Projects\C-StringExtensionsLibrary\TestView\bin\Debug\StringExtensions.dll
+D:\Projects\C-StringExtensionsLibrary\TestView\bin\Debug\StringExtensions.pdb
+D:\Projects\C-StringExtensionsLibrary\TestView\obj\Debug\TestView.csprojResolveAssemblyReference.cache
+D:\Projects\C-StringExtensionsLibrary\TestView\obj\Debug\TestView.exe
+D:\Projects\C-StringExtensionsLibrary\TestView\obj\Debug\TestView.pdb
