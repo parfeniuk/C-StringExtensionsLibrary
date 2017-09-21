@@ -11,14 +11,14 @@ namespace StringExtensions
     {
         public static int CountWords(this string str)
         {
-			//коментар якийсь
+			//Fixed додано десяткові числа як слова
 			int count = 0;
-			Regex regex = new Regex(@"\w[\s,.:;'!]");
+			Regex regex = new Regex(@"\b");
 			MatchCollection matches = regex.Matches(str);
 			
 			if (matches.Count > 0)
 			{
-				count = matches.Count;				
+				count = matches.Count/2;				
 			}
 			return count;
         }

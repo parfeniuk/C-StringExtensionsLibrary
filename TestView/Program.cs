@@ -16,7 +16,26 @@ namespace TestView
             Console.WriteLine($"Symbols: {input.Count()}, Letters or Digits:{input.CountNonSpecialSymbols()}");
             input.CountNonSpecialSymbols();
 
-            Console.ReadKey();
+
+			input = "123 456 7899";
+			Console.WriteLine($"\nstring: {input}");
+			Console.WriteLine(	$"Words: {input.CountWords()}");
+
+			input = "asd hjk qwe iuyi34 213lkjhl %^$#@ 234";
+			Console.WriteLine($"\nstring: {input}");
+			Console.WriteLine($"Words: {input.CountWords()}");
+			input =
+			"Hurricane \"Maria\" is approaching the Dominican Republic \n\"Uruguay \"Maria\" left Puerto Rico without electricity, it has somewhat weakened and is approaching the Dominican Republic.";
+			Console.WriteLine($"\nstring: {input}");
+			Console.WriteLine($"Words: {input.CountWords()}");
+
+
+
+
+
+
+
+			Console.ReadKey();
         }
     }
 }
