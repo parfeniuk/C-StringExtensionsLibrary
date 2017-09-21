@@ -1,8 +1,0 @@
-D:\Programming\C#CodeLIB\StringExtensions\TestView\bin\Debug\TestView.exe.config
-D:\Programming\C#CodeLIB\StringExtensions\TestView\bin\Debug\TestView.exe
-D:\Programming\C#CodeLIB\StringExtensions\TestView\bin\Debug\TestView.pdb
-D:\Programming\C#CodeLIB\StringExtensions\TestView\bin\Debug\StringExtensions.dll
-D:\Programming\C#CodeLIB\StringExtensions\TestView\bin\Debug\StringExtensions.pdb
-D:\Programming\C#CodeLIB\StringExtensions\TestView\obj\Debug\TestView.csprojResolveAssemblyReference.cache
-D:\Programming\C#CodeLIB\StringExtensions\TestView\obj\Debug\TestView.exe
-D:\Programming\C#CodeLIB\StringExtensions\TestView\obj\Debug\TestView.pdb
