@@ -14,9 +14,10 @@ namespace StringExtensions
 			int count = 0;
 			Regex regex = new Regex(@"\w[\s,.:;'!]");
 			MatchCollection matches = regex.Matches(str);
+			
 			if (matches.Count > 0)
 			{
-				count++;				
+				count = matches.Count;				
 			}
 			return count;
         }
