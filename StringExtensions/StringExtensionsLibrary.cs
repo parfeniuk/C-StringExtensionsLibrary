@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace StringExtensions
 {
@@ -10,8 +11,14 @@ namespace StringExtensions
     {
         public static int CountWords(this string str)
         {
-            int count=0;
-            return count;
+			int count = 0;
+			Regex regex = new Regex(@"\w[\s,.:;'!]");
+			MatchCollection matches = regex.Matches(str);
+			if (matches.Count > 0)
+			{
+				count++;				
+			}
+			return count;
         }
         public static int CountNonSpecialSymbols(this string str)
         {
