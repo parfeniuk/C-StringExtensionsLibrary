@@ -17,11 +17,7 @@ namespace TestView
             Console.WriteLine($"Symbols: {input.Count()}, Letters or Digits:{input.CountNonSpecialSymbols()}, words:{input.CountWords()}");
             input.CountNonSpecialSymbols();
 
-
-<<<<<<< HEAD
-            Console.ReadKey();
-=======
-			input = "123 456 7899";
+			input = "   ~~123$    456    7899  rrt,.";
 			Console.WriteLine($"\nstring: {input}");
 			Console.WriteLine(	$"Words: {input.CountWords()}");
 
@@ -33,14 +29,7 @@ namespace TestView
 			Console.WriteLine($"\nstring: {input}");
 			Console.WriteLine($"Words: {input.CountWords()}");
 
-
-
-
-
-
-
 			Console.ReadKey();
->>>>>>> 77b2594f8a142a1fb6ff53dbd64cb8fe149aa0a4
         }
     }
 }
